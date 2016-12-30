@@ -8,6 +8,10 @@
 * Run a `crontab job` of image deletion 
 * Provide API to `delete images, view image info`(basic info, pull/push record, image action hits), `inspect image deletion list`
 
-# Design
+## Design & Implement
 
-* 
+* How to get image pulling&pushing logs \<br>
+  We complish this via harbor ui container logs and nginx container logs
+* How to determine the images to delete \<br>
+  We firstly use image last pulling&pushing timestamp to `find the nonuse time`. 
+  And we delete an image by `restricting the nonuse time and numbers of image pulling&pushing requests`
