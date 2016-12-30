@@ -10,8 +10,8 @@
 
 ## Design & Implement
 
-* How to get image pulling&pushing logs \<br>
+* How to get image pulling&pushing logs <br>
   We complish this via harbor ui container logs and nginx container logs
-* How to determine the images to delete \<br>
+* How to determine the images to delete <br>
   We firstly use image last pulling&pushing timestamp to `find the nonuse time`. 
   And we delete an image by `restricting the nonuse time and numbers of image pulling&pushing requests`
