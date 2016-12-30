@@ -1,6 +1,8 @@
 Image Deletion Document
+===
 
 Objective
+==
 
 1. Record the actions(ID/owner/repository_name/tag/remote_addr/action_time) of image operations including pull, push and deletion
 2. Count the hit value of specific image actions
