@@ -1,12 +1,7 @@
 .gitignore/
 ~
 
-target/
-*.jar
-*.war
-*.zip
-*.tar
-*.tar.gz
+target/*
 
 # eclipse ignore
 .settings/
@@ -14,10 +9,7 @@ target/
 .classpath
 
 # idea ignore
-.idea/
-*.ipr
-*.iml
-*.iws
+.idea/*
 
 # temp ignore
 *.log
